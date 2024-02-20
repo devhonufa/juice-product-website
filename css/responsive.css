@@ -1,0 +1,263 @@
+/* =================================================
+               LG  Device
+===================================================== */
+@media (max-width: 1140px){
+  .top-header-nav .nav-item{
+    margin: 0;
+}
+.top-header-nav .account{
+  border-radius: 20px;
+  box-shadow:none;
+}  
+.menu-area .nav .nav-item .nav-link{
+  padding: 0;
+}
+.single-banner-content .col-xl-6{
+  width: 50%;
+}
+}
+/* =================================================
+               MD Device
+===================================================== */
+@media screen and (max-width: 992px) {
+  .btn{
+    padding: 10px 20px;
+  }
+  .subtitle {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Jost-Medium;
+}
+  .title {
+    font-family: Jost-light;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .header-area {
+    position: fixed;
+    margin-top: 0;
+    padding: 10px 0;
+  }
+  .change_header_bg {
+    padding-top: 20px;
+  }
+.menu-area{
+  top: 0;
+  left: -100%;
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #fff;
+  z-index: 100;
+  padding: 90px 0px;
+  border-right: 1px solid #F29C1F;
+  transition: .5s;
+  box-shadow: 5px 5px 20px rgba(216, 216, 211, 0.673), -5px -5px 20px #fffb;
+}
+.menu-area .nav{
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+.navbar .toggle_nav{
+  opacity: 1;
+}
+.menu-area .nav_close{
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+
+}
+.menu-area .nav_close .fa-xmark{
+  font-size: 25px;
+  color: #F29C1F;
+  padding: 5px;
+}
+
+.menu-area .dropdowns .dropdown-menu{
+  left: 0!important;
+  top: 235px;
+}
+  .top-header-nav .nav-item{
+    margin: 10px 15px;
+}
+  .top-header-nav .nav-item .nav-link{
+    margin: 2px;
+    display: none;
+}
+  .top-header-nav .account{
+      padding: 0;
+      border: none;
+     box-shadow:none;
+    }  
+  .bottom-header-icons{
+       display: flex;
+    }
+  .menu-area .nav .nav-item .nav-link{
+      padding: 0;
+    }
+    .card-area .text-center,.text-end{
+      text-align: start !important;
+    }
+  
+    #features{
+      position: relative;
+  }
+ 
+  .card{
+    padding: 15px 15px 0 15px;
+    margin: 0 !important;
+}
+.card-right,.card-left,.card-center{
+  align-items: flex-start;
+}
+.home-area-text{
+  margin: 0;
+}
+.about-area-text{
+  margin: 0;
+}
+#new-product .col-sm-3{
+  width: 50%;
+}
+.all-product .col-sm-3{
+  width: 50%;
+}
+.all-product .svg-inline--fa.fa-chevron-left {
+  margin-left: 0;
+  right: 0;
+}
+.all-product .svg-inline--fa.fa-chevron-right {
+  margin-right: 0;
+  right: 0;
+}
+.blog .col-sm-4{
+  width: 50%;
+}
+.choose-section .col-sm-7,
+.choose-section .col-sm-5{
+  width: 100%;
+}
+.choose-content{
+  margin-top: 20px;
+}
+.contact .col-sm-5{
+  width: 100%;
+  padding: 0 50px;
+}
+.footer-last-menu .d-flex {
+  flex-wrap: wrap;
+
+}
+.paymeny-method img{
+  margin-top: -15px;
+}
+}
+
+/* =================================================
+                 SM Device
+===================================================== */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .header-area{
+    width: 100%;
+    padding: 5px 20px 5px 20px;
+  }
+  .change_header_bg {
+    padding-top: 20px;}
+  .navbar-brand{
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  .navbar-brand img{
+    width: 30px;
+    height: 30px;
+  }
+
+.form-area{
+  margin: 0 15px;
+}
+.form-area .btn{
+ margin: 0;
+ border-radius: 0 4px 4px 0 !important;
+}
+.top-header-nav .nav-item .nav-link{
+  margin: 2px;
+  display: flex;
+}
+.top-header-nav .account{
+   padding: 0px 8px;
+   border-radius: 20px;
+   border: 1px solid #F29C1F;
+   box-shadow: 5px 5px 20px rgba(216, 216, 211, 0.673), -5px -5px 20px #fffb;
+  } 
+.menu-area .nav .nav-item .nav-link{
+  padding: 0;
+}
+.navbar .toggle_nav{
+  opacity: 1;
+}
+.menu-area .dropdowns .dropdown-menu{
+  width: 380px
+}
+.home{
+  margin-top: 180px;
+  padding: 90px 50px;
+}
+.about .bg img{
+  display: none;
+}
+.mid-img img{
+  width: 90%;
+ }
+ .card-center{
+  margin-top: 10px;
+ }
+.all-product .svg-inline--fa.fa-chevron-left {
+  margin-left: -30px;
+}
+.all-product .svg-inline--fa.fa-chevron-right {
+  margin-right: -30px;
+}
+.choose-section .col-sm-7,
+.choose-section .col-sm-5,
+.banner .col-sm-6,
+#new-product .col-sm-3,
+.blog .col-sm-4,
+.all-product .col-sm-3{
+  width: 100%;
+}
+.footer,
+#features,
+#new-product,
+.about,
+.all-product,
+.choose-section,
+.blog,
+.customer{
+  padding: 40px;
+}
+.choose-content{
+  margin-top: 20px;
+}
+.contact{
+  padding: 20px; 
+}
+.contact .col-sm-5{
+  width: 100%;
+}
+.footer-last-menu li{
+  padding: 0;
+}
+.footer-last-menu .d-flex {
+  flex-wrap: wrap;
+}
+.footer .footer-social-icon .bg-warning {
+  margin-left: 20px;
+}
+.footer .text-area,.footer-logo{
+ margin-left: 20px;
+}
+}
+
